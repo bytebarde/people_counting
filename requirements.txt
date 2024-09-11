@@ -1,0 +1,5 @@
+cv
+pytubefix
+ultralytics
+isort
+black
