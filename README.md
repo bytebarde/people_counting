@@ -4,6 +4,7 @@ This repository was created as part of a technical assessment for estimating the
 ## Prediction Results:
 * Average number of people detected per frame (0:18 to 0:19 time window): **172**
 * Estimated total number of people on the bridge: **2,111**
+
 All predicted results, including images with bounding boxes and labels, can be found in the `results` directory.
 
 ## Installation
@@ -19,7 +20,7 @@ To fetch the video from YouTube and extract frames between 0:14 and 0:32, run th
 python data_processing.py \
   "https://www.youtube.com/watch?v=y2zyucfCyjM" \
   "data/video/" \
-  "data_test/video/Drone Footage of Canberras HISTORIC Crowd.mp4" \
+  "data/video/Drone Footage of Canberras HISTORIC Crowd.mp4" \
   "data/frames/output_%04d.png" \
   14 \
   32
